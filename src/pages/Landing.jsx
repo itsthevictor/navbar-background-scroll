@@ -61,7 +61,7 @@ const Landing = () => {
       ScrollTrigger.create({
         start: trigger.start,
         end: trigger.end,
-        markers: true,
+        markers: false,
         trigger: trigger.trigger,
         toggleClass: {
           className: trigger.class,
